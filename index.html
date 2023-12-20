@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- Start the header -->
+    <header class="header">
+        <a href="#logo" class="logo primary-color">Coffee<span class="logo-color">Cake</span></a>
+
+        <nav class="navigation">
+            <a href="index.html" class="primary-color">Home</a>
+            <a href="shop.html" class="primary-color">Shop</a>
+            <a href="contactUs.html" class="primary-color">Contact</a>
+            <a href="about.html" class="primary-color">About</a>
+            <a href="blogs.html" class="primary-color">Blogs</a>
+        </nav>
+
+        <div class="icons">
+            <div class="fas fa-search primary-color" id="search-icon"></div>
+            <div class="fas fa-shopping-cart primary-color" id="cart-icon"></div>
+            <div class="fas fa-sign-in primary-color" id="sign-in-icon"></div>
+            <div class="fas fa-bars primary-color" id="menu-icon"></div>
+        </div>
+
+        <div class="search-bar">
+            <input type="search" placeholder="Search...">
+            <label for="search" class="fas fa-search"></label>
+        </div>
+
+        <div class="cart" id="cart-section">
+            <h2>Shopping Cart</h2>
+            <span id="cart-count">0</span>
+            <div class="cart-items cart-items-list">
+              
+            </div>
+            <div class="cart-total">
+                <p><span id="total-amount"></span></p> 
+            </div>
+        </div>
+    </header>
+    
+    <!-- Start the Home section -->
+    <section class="home-items">
+
+        <!-- Coffee Section -->
+        <div class="home coffee-home" id="coffee">
+          <div class="content" id="coffeeContent">
+            <h3>Start Fresh with Coffee</h3>
+            <button class="btn btn-coffee">Buy a Coffee</button>
+          </div>
+        </div>
+      
+        <!-- Cake Section -->
+        <div class="home cake-home" id="cake">
+          <div class="content" id="cakeContent">
+            <h3>Sweeten Your Moments with Cake!</h3>
+            <button class="btn btn-cake">Buy a Cake</button>
+          </div>
+        </div>
+      
+        <!-- Home Action Section -->
+        <div class="home-action">
+          <!-- Item One -->
+          <div class="home-item item-one">
+            <img src="./images/newcake (5).jpg" alt="New Cake Image">
+            <button class="btn-item btn-item-one"></button>
+          </div>
+      
+          <!-- Item Two -->
+          <div class="home-item item-two">
+            <img src="./images/coffe.jpg" alt="Coffee Image">
+            <button class="btn-item btn-item-two"></button>
+          </div>
+        </div>
+      
+      </section>
+      <!-- End the Home section -->
+
+      <!-- Menu Section -->
+<section class="products">
+  <div class="menu-heading">
+    <h1> Welcome to Sweet CoffeeCake! </h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+         Consequuntur, quas incidunt. 
+        In sequi a veniam ullam fugit iusto repudiandae nulla!</p>
+
+  </div>
+
+  <div class="container" id="Product-container">
+  </div>
+</section>
+<!-- End the Menu Section -->
+
+<!-- About Section -->
+<section class="about">
+    <div class="row">
+        <div class="about-content">
+            <h1> COME WITH US</h1>
+            <ul>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi tempore et, minus maiores possimus totam?</li>
+                <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti eaque repudiandae at minima recusandae ipsum nulla quia?</li>
+            </ul>
+          </div>
+
+    </div>
+
+  </section>
+  <!-- End the About Section -->
+
+  <!-- Menu2 Section -->
+<section class="menu2">
+    <div class="logos">
+        <img src="./images/logo (2).jpg" alt="Logo">
+    </div>
+    <div class="menu">
+        <!-- Item 1 -->
+        <div class="menu-img">
+            <img src="./images/cake (19).jpg" alt="Cake Image">
+            <div class="img-num">01.</div>
+            <div class="img-name">
+                <p>Cupcake</p>
+                <a href="#" class="shopNow">Shop Now</a>
+            </div>
+        </div>
+
+        <!-- Item 2 -->
+        <div class="menu-img">
+            <img src="./images/cake (18).jpg" alt="Cake Image">
+            <div class="img-num">02.</div>
+            <div class="img-name">
+                <p>Coffee</p>
+                <a href="#" class="shopNow">Shop Now</a>
+            </div>
+        </div>
+
+        <!-- Item 3 -->
+        <div class="menu-img">
+            <img src="./images/cake (17).jpg" alt="Cake Image">
+            <div class="img-num">03.</div>
+            <div class="img-name">
+                <p>Cake + Coffee</p>
+                <a href="#" class="shopNow">Shop Now</a>
+            </div>
+        </div>
+
+        <!-- Item 4 -->
+        <div class="menu-img">
+            <img src="./images/cake (20).jpg" alt="Cake Image">
+            <div class="img-num">04.</div>
+            <div class="img-name">
+                <p>Cupcake</p>
+                <a href="#" class="shopNow">Shop Now</a>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End the Menu2 Section -->
+
+<!-- Start All Products section -->
+<section class="allProducts">
+  <h1>All Products</h1>
+  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis, exercitationem!</p>
+
+  <div class="container">
+      <div class="menuBar">
+          <a href="#Products-items" class="show-allProducts">All</a>
+          <p>|</p>
+          <a href="#Products-items" class="show-cakeMenu">Cake</a>
+          <p>|</p>
+          <a href="#Products-items" class="show-coffeeMenu">Coffee</a>
+      </div>
+  </div>
+</section>
+
+<section class="products">  
+    <div class="container" id="Products-items">
+    </div>
+  </section>
+<!-- End All Products section -->
+
+<!-- Most Amazing Products section -->
+<section class="MostAmazingProductes">
+  <div class="container">
+      <img src="./images/coffee (2).jpg" alt="">
+      <img src="./images/main.jpg" alt="">
+
+
+      <div class="content">
+          <h3>Caffe Cake</h3>
+          <h1>The Most Amazing Cupcakes</h1>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit, fugiat?</p>
+          <button class="shopNow">SHOP NOW</button>
+      </div>
+
+      <div class="more"></div>
+
+      <div class="links">
+          <div class="more-links">
+              <i class="fa fa-address-book" aria-hidden="true"></i>
+              <a href="contactUs.html">Contact Us</a>
+          </div>
+          <p>|</p>
+          <div class="more-links">
+              <i class="fa fa-shopping-bag" aria-hidden="true"></i>
+              <a href="shop.html">Shop Now</a>
+          </div>
+          <p>|</p>
+          <div class="more-links">
+              <i class="fa fa-map-marker" aria-hidden="true"></i>
+              <a href="contactUs.html">Store Location</a>
+          </div>
+      </div>
+  </div>
+</section>
+<!-- End Most Amazing Products section -->
+
+
+<!-- Slider section -->
+<section class="slider">
+  <div class="text">
+      <p>Instagram</p>
+      <p><span>@CoffeeCake</span></p>
+  </div>
+  <div class="container">
+      <div class="slides">
+          <div class="slide">
+              <img src="./images/cake (21).jpg" alt="" />
+              <i class="fab fa-instagram"></i>
+              <div class="slide-content"></div>
+          </div>
+          <div class="slide">
+              <img src="./images/cupcake (1).jpg" alt="" />
+              <i class="fab fa-instagram"></i>
+          </div>
+          <div class="slide">
+              <img src="./images/img (11).jpg" alt="" />
+              <i class="fab fa-instagram"></i>
+          </div>
+          <div class="slide">
+              <img src="./images/img (31).jpg" alt="" />
+              <i class="fab fa-instagram"></i>
+          </div>
+      </div>
+      <div class="slide-controls">
+          <button id="prev-btn">
+              <i class="fas fa-chevron-left"></i>
+          </button>
+          <button id="next-btn">
+              <i class="fas fa-chevron-right"></i>
+          </button>
+      </div>
+  </div>
+</section>
+<!-- End Slider section -->
+
+<!-- Subscribe section -->
+<section class="subscribe">
+  <div class="container">
+      <p>STAY IN TOUCH & GET 10% OFF</p>
+      <div class="search-box">
+          <input type="email" id="email-input" placeholder="Your email address">
+          <label for="email-input">Subscribe</label>
+      </div>
+  </div>
+</section>
+<!-- End Subscribe section -->
+
+
+<!-- Footer section -->
+<footer>
+  <div class="footer-columns">
+      <div class="column">
+          <div class="store-name">coffee <span>cake</span> </div>
+          <div class="social-icons">
+              <i class="fab fa-instagram"></i>
+              <i class="fab fa-facebook"></i>
+              <i class="fab fa-twitter"></i>
+              <i class="fab fa-pinterest"></i>
+          </div>
+      </div>
+
+      <div class="column">
+          <h3>CATEGORIES</h3>
+          <ul class="services-list">
+              <li>Gift Cards</li>
+              <li>Track Your Order</li>
+              <li>Secure Payments</li>
+          </ul>
+      </div>
+      <div class="column">
+          <h3>SERVICES</h3>
+          <ul class="services-list">
+              <li>Free Shipping</li>
+              <li>Easy Returns</li>
+              <li>24/7 Customer Support</li>
+          </ul>
+      </div>
+
+      <div class="column">
+          <h3>INFORMATION</h3>
+          <ul class="services-list">
+              <li>About Us</li>
+              <li>Contact Us</li>
+              <li>Latest Post</li>
+              <li>Selling Tips</li>
+          </ul>
+      </div>
+  </div>
+  <p>COPYRIGHT © CoffeeCake. ALL RIGHTS RESERVED.</p>
+</footer>
+<!-- End Footer section -->
+
+
+
+
+
+
+
+
+
+
+
+
+      
+
+    <script src="script.js"></script>
+</body>
+</html>

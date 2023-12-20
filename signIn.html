@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles/signIn.css">
+    <title>Document</title>
+</head>
+<body>
+
+<section class="main">
+    <header class="header">
+        <a href="" class="logo primary-color">Coffee<span class="logo-color">Cake</span></a>
+
+        <nav class="navigation ">
+            <a href="index.html" class="primary-color">Home</a>
+            <a href="shop.html" class="primary-color">Shop</a>
+            <a href="contactUs.html" class="primary-color">Contact</a>
+            <a href="about.html" class="primary-color">About</a>
+            <a href="blogs.html" class="primary-color">Blogs</a>
+        </nav>
+
+    <div class="icons">
+        <div class="fas fa-search primary-color" id="search-icon"></div>
+        <div class="fas fa-shopping-cart primary-color" id="cart-icon"></div>
+        <div class="fas fa-sign-in primary-color" id="sign-in-icon"></div>
+        <div class="fas fa-bars primary-color" id="menu-icon"></div>
+    </div>
+    <div class="search-bar">
+        <input type="search" placeholder="search...">
+        <label for="search" class="fas fa-search"></label>
+    </div>
+    <div class="cart" id="cart-section">
+        <h2>Shopping Cart</h2>
+        <span id="cart-count">0</span>
+        <div class="cart-items cart-items-list">
+            
+        </div>
+        <div class="cart-total">
+            <p><span id="total-amount"></span></p> 
+        </div>
+    </div>
+    </header>
+    <div class="wrapper">
+        <!--<span class="icon-close"><ino-icon name="close"></ino-icon></span>-->
+        
+        <i class="bi bi-x-square-fill"></i>
+        <div class="form-box Login">
+            <h2>login</h2>
+            <form action="#">
+                <div class="input-box">
+                    <i class="bi bi-envelope-at-fill"></i>
+                    <input type="email" required>
+                    <label >email</label>
+                </div>
+                <div class="input-box">
+                    
+                    <i class="bi bi-file-lock"></i>
+                    <input type="password" required>
+                    <label >Password</label>
+                </div>
+                <div class="remember-forgot">
+                    <label for=""><input type="checkbox" name="" id="">Remember me</label>
+                    <a href="#">Forgot Password?</a>
+                </div>
+                <button class="btn" type="submit">login</button>
+                <div class="register-login">
+                    <p>Don't have an account?<a href="#" class="login-link">sign in</a></p>
+                </div>
+            </form>
+        </div>
+
+        <div class="form-box Registration">
+            <h2>Registration</h2>
+            <form action="#">
+                <div class="input-box">
+                    <i class="bi bi-envelope-at-fill"></i>
+                    <input type="text" required>
+                    <label >UserName</label>
+                </div>
+                <div class="input-box">
+                    <i class="bi bi-envelope-at-fill"></i>
+                    <input type="email" required>
+                    <label >email</label>
+                </div>
+                <div class="input-box">
+                    
+                    <i class="bi bi-file-lock"></i>
+                    <input type="password" required>
+                    <label >Password</label>
+                </div>
+                <div class="remember-forgot">
+                    <label for=""><input type="checkbox" name="" id="">Agree with the terms & conditions</label>
+                </div>
+                <button class="btn" type="submit">Register</button>
+                <div class="register-login">
+                    <p>Already have an account?<a href="#" class="register-link">log in</a></p>
+                </div>
+            </form>
+        </div>
+    </div>
+
+ 
+
+</section>
+
+
+
+
+<footer>
+    <div class="footer-columns">
+        <div class="column">
+            <div class="store-name">coffee <span>cake</span> </div>
+            <div class="social-icons">
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-pinterest"></i>
+            </div>
+        </div>
+
+        
+
+        <div class="column">
+            <h3>CATEGORIES</h3>
+            <ul class="services-list">
+                <li>Gift Cards</li>
+                <li>Track Your Order</li>
+                <li>Secure Payments</li>
+            </ul>
+        </div>
+        <div class="column">
+            <h3>SERVICES</h3>
+            <ul class="services-list">
+                <li>Free Shipping</li>
+                <li>Easy Returns</li>
+                <li>24/7 Customer Support</li>
+            </ul>
+        </div>
+
+        <div class="column">
+            <h3>INFORMATION</h3>
+            <ul class="services-list">
+                <li>About Us</li>
+                <li>Contact Us</li>
+                <li>Latest Post</li>
+                <li>Selling Tips</li>
+            </ul>
+        </div>
+    </div>
+    <p>COPYRIGHT © CoffeeCake. ALL RIGHTS RESERVED.
+    </p>
+</footer>
+
+
+
+
+
+
+
+<script src="signIn.js"></script>
+<script src="script.js"></script>
+<script src="publicScript.js"></script>
+<script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+</body>
+</html>

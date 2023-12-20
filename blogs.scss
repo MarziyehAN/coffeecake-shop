@@ -1,0 +1,321 @@
+$myfontfamily : "Montaga",sans-serif;//"Inter",Sans-serif;
+@import "public";
+
+body{
+    font-family: "Montaga",sans-serif;
+   
+
+}
+
+/* "Inter",
+-apple-system,BlinkMacSystemFont,
+"Segoe UI",Poppins,"Helvetica Neue",
+Arial,"Noto Sans",sans-serif,"Apple Color Emoji",
+"Segoe UI Emoji","Segoe UI Symbol",
+"Noto Color Emoji" */
+
+.article {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   width: 100vw;
+   .blogs{
+       flex: 65%;
+       margin: 5rem 2rem;
+       .blog{
+        width: 77%;
+        margin: 5rem auto;
+        margin-bottom: 7rem;
+        .blog-img{
+            width: 100%;
+            img{
+                width: 100%;
+                height: 33rem;
+                object-fit: cover;
+                object-position: center;
+            }
+        }
+        .blog-content{
+            padding: 2rem 0;
+            h2{
+                font-size: 2rem;
+                padding-bottom: 1rem;
+            }
+            p{
+                font-size: 1.5rem;
+                line-height: 1.8;
+                color: #8f8c8c;
+                padding-bottom: 1rem;
+
+                span{
+                    color: #BC8157;
+                    font-size: 1.5rem;
+
+                }
+
+
+            }
+        }
+        .read-more{
+            border: .1rem solid #8f8c8c;
+            border-radius: 2rem;
+            width: 30%;
+            text-align: center;
+            &:hover{
+                background-color: #BC8157;
+                border: .1rem solid #BC8157;
+                
+            }
+            button{
+                padding: 1.5rem;
+                background: transparent;
+                cursor: pointer;
+                color: #8f8c8c;
+                &:hover{
+                    color: #fff;
+
+                }
+                
+            }
+            
+        }
+       }
+      
+    }
+   .sidebar{
+       flex: 30%;
+       background-color: #f1efef;
+       .search-box{
+           margin: 3rem auto;
+           margin-top: 4rem;
+           width: 80%;
+           display: flex;
+           height: 4rem;
+           background-color: #fff;
+           border: .1rem solid #c2bebe;
+           input{
+               width: 100%;
+               height: 100%;
+               font-size: 1.5rem;
+               padding: 1rem;
+               margin-right: 1rem;
+           }
+           label{
+               font-size: 1.5rem;
+               padding: 1rem;
+                       }
+           
+       }
+
+       .categories{
+        width: 80%;
+        margin: 2rem auto;
+        h2{
+            font-family: "Segoe UI Emoji",sans-serif;
+            font-size: 2rem;
+        }
+        .list{
+            ul{
+                list-style: none;
+                padding: 1rem;
+
+                li{
+                    padding: 1rem;
+                    a{
+                        font-size: 1.4rem;
+                        color: #333;
+                        &:hover{
+                            color: #BC8157;
+                            letter-spacing: .1rem;
+                        }
+                    }
+                }
+            }
+            
+        }
+    }
+       .popular-blogs{
+           width: 80%;
+           margin: 2rem auto;
+           
+           h2{
+               margin-bottom: 3rem;
+               font-family: "Segoe UI Emoji",sans-serif;
+               font-size: 2rem;
+           }
+           .row{
+               width: 100%;
+               display: flex;
+               gap: 2rem;
+               margin-bottom: 3rem;
+               .item-img{
+                   width: 8rem;
+                   height: 8rem;
+                   img{
+                       width: 100%;
+                       height: 100%;
+                       object-fit: cover;
+                       object-position: center;
+                   }
+               }
+   
+               .item-name{
+                   width: 100%;
+                   height: 9srem;
+                   p{
+                       font-size: 1.5rem;
+                       margin: 1rem auto;
+                       color: #000;
+                       span{
+                        color: #BC8157;
+                       }
+                   }
+               }
+           }
+
+       }
+
+       .insta-pics{
+
+           width: 70%;
+           margin: 5rem auto;
+           display: flex;
+           flex-direction: column;
+           gap: 0;
+           h2{
+               font-size: 2rem;
+               color: #333;
+               margin-bottom: 2rem;
+           }
+           .image-container {
+               display: flex;
+               gap: 0;
+               width: 100%;
+               .item{
+                   position: relative;
+                   flex: 1 1 50%;
+                   overflow: hidden;
+                   cursor: pointer;
+                   img{
+                       width: 100%;
+                       height: 100%;
+                       object-fit: cover;
+                       object-position: center;
+                       cursor: pointer;
+
+                      
+   
+                   }
+                   .fab{
+                       position: absolute;
+                       top: 50%;
+                       left: 50%;
+                       transform: translateY(-50%);
+                       font-size: 1.5rem;
+                       color: #BC8157;
+                       display: none;
+                   }
+                   &:hover img{
+                       transition: transform .5s, opacity .5s;
+                       transform: scale(1.2);
+                       opacity: .5;
+                       z-index: 1;
+                   }
+                   &:hover .fab{
+                       transition: display .7s;
+                       display: block;
+                       z-index: 2;
+                   }
+
+               }
+               
+           }
+           
+
+       }
+
+       .tags{
+           width: 80%;
+           margin: 2rem auto;
+           h2{
+               font-family: "Segoe UI Emoji",sans-serif;
+               font-size: 2rem;
+               margin-bottom: 2rem;
+           }
+           p{
+               color: #8f8c8c;
+               font-size: 1.5rem;
+               a{
+                   color: #8f8c8c;
+                   margin-bottom: .2rem;
+                   &:hover{
+                       border-bottom: .1rem solid #8f8c8c;
+                   }
+               }
+           }
+           
+       }
+
+       .side-img{
+           width: 65%;
+           margin: 3rem auto;
+           overflow: hidden;
+           position: relative;
+           img{
+               width: 100%;
+               height: 100%;
+               transform: scale(1.2);
+               z-index: 1;
+
+           }
+          
+           .card{
+               position: absolute;
+               top: 5%;
+               left: 5%;
+               z-index: 2;
+               border: .5rem solid #8f8c8c;
+               width: 90%;
+               height: 90%;
+               opacity: 0;
+               p{
+                   font-size: 3rem;
+                   color: #333;
+                   text-align: center;
+                   margin-top: 2rem;
+               }
+
+           }
+           &:hover img{
+               transition: transform .5s;
+               transform: scale(1);
+               filter: grayscale(.5);
+               
+           }
+           &:hover .card{
+               opacity: 1;
+               transition:opacity .5s, width .5s, height .5s ,
+               top .5s, left .5s ;
+               width: 80%;
+               height: 80%;
+               top: 10%;
+               left: 10%;
+               p{
+                   font-size: 1.5rem;
+                   transition:font-size .5s ;
+               }
+
+           }
+       }
+
+     
+
+     
+       
+    }
+    
+}
+
+
+
+
