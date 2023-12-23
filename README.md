@@ -1,4 +1,4 @@
-# CoffeeCake-Website
+# coffeecake-shop
 This project involves the complete design of website pages using HTML, SCSS, and JavaScript. The architectural inspiration for the page layouts is drawn from the design of website https://baker.la-studioweb.com/.
 
 # Features
@@ -29,9 +29,9 @@ The architecture of the website pages is inspired by the layout and structure of
 
 # Installation
   - Clone the repository:
-    - <pre> <code> git clone https://github.com/MarziyehAN/CoffeeCake-Website.git </code> </pre>
+    - <pre> <code> git clone https://github.com/MarziyehAN/coffeecake-shop.git </code> </pre>
   - Navigate to the project directory:
-    - <pre> <code> cd CoffeeCake-Website </code> </pre> 
+    - <pre> <code> cd coffeecake-shop </code> </pre> 
   - Open the index.html file in your preferred web browser.
 
 # Usage
