@@ -41,6 +41,14 @@ Open the index.html file in your preferred web browser to view the sample web pa
 
 If you find this project helpful and decide to use the code, we kindly ask you to give credit by linking back to this GitHub repository. You can include a reference in your project's documentation, website, or any other appropriate place.
 
+# picture sources
+- https://www.pexels.com/
+- https://pixabay.com/
+- https://www.istockphoto.com/
+- https://unsplash.com/
+- https://www.freepik.com/
+
+
 
 
 
